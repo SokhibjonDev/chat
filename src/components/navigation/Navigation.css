@@ -1,0 +1,37 @@
+.Navigation {
+    background: #252839;
+    width: 100px;
+    height: 100vh;
+    box-shadow: 0 0 20px 1px #252839;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+.active{
+    width: 18px;
+    height: 18px;
+    background: rgb(17, 255, 17);
+    border-radius: 50%;
+    border: 3px solid #252839;
+    position: absolute;
+    top: 85px;
+    left: 57px;
+}
+li {
+    padding: 22px 0;
+}
+
+i {
+    font-size: 50px;
+    color: #7077a9;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 23px;
+}
