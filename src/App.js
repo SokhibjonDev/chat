@@ -4,6 +4,8 @@ import './App.css';
 // import 'aos/dist/aos.css'
 // AOS.init()
 import Navigation from './components/navigation/Navigation'
+import Categories from './components/categories/Categories'
+import CategoryChat from './components/category-chat/CategoryChat.jsx'
 function App() {
   return (
     <div>
@@ -11,6 +13,8 @@ function App() {
         <Route path='/' element={<Navigation />} />
       </Routes> */}
       <Navigation />
+      <Categories/>
+      <CategoryChat/>
     </div>
   );
 }

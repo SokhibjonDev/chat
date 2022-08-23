@@ -1,8 +1,9 @@
 .Navigation {
-    background: #252839;
+    background: var(--bg-color);
     width: 100px;
     height: 100vh;
-    box-shadow: 0 0 20px 1px #252839;
+    box-shadow: 0 0 20px 1px var(--bg-color);
+    z-index: 9999;  
 }
 
 .avatar {
@@ -10,23 +11,25 @@
     border-radius: 50%;
     position: relative;
 }
-.active{
+
+.active {
     width: 18px;
     height: 18px;
     background: rgb(17, 255, 17);
     border-radius: 50%;
-    border: 3px solid #252839;
+    border: 3px solid var(--bg-color);
     position: absolute;
     top: 85px;
     left: 57px;
 }
+
 li {
     padding: 22px 0;
 }
 
 i {
     font-size: 50px;
-    color: #7077a9;
+    color: var(--text-color);
 }
 
 ul {

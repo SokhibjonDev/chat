@@ -1,7 +1,27 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap');
+
+* {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  position: relative;
+}
+
+:root {
+  --bg-color: #252839;
+  --bg-color-2: #252839f4;
+  --text-color: #7077a9;
+}
+:focus{
+  outline: none;
 }

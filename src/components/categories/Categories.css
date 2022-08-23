@@ -1,0 +1,32 @@
+.Categories {
+    position: absolute;
+    top: 0;
+    margin-left: 100px;
+    width: 40%;
+    z-index: -99999;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    padding: 40px ;
+    background: var(--bg-color-2);
+}
+
+.top .group_avatar img {
+    border-radius: 50%;
+    width: 60px;
+}
+.top .group_avatar i {
+    border-radius: 50%;
+    font-size: 53.2px;
+}
+
+.top .group_name h2 {
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-left: 40px;
+    border-left: 3px solid;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
